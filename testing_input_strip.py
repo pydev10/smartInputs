@@ -1,4 +1,4 @@
-from input_strip import InputsTracker
+from inputs_strip import InputsTracker
 
 
 def test_input_tracker_strip():

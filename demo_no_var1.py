@@ -1,8 +1,10 @@
-from lower_strip import InputsTracker
+from inputs_tracker import InputsTracker
 inputs = InputsTracker()
 
 while True:
     inputs.ask("Enter something (or type 'exit' to quit): ")
+    inputs.ask("Enter something (or type 'exit' to quit): ")
+        
     
     if inputs.any == "exit":
         print("\nExiting the program.")

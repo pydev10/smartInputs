@@ -1,4 +1,4 @@
-from inputs_strip import InputsTracker
+from lower_strip import InputsTracker
 inputs = InputsTracker()
 
 while True:

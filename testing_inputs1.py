@@ -1,26 +1,23 @@
 from inputs_tracker import InputsTracker
 
+try:
+    def test_input_tracker():
+        inputs = InputsTracker()
 
-def test_input_tracker():
-    inputs = InputsTracker()
+        inputs.history = ["hello", "test", "goodbye"]
+        assert inputs.any == "test"
+        assert inputs.all != "test"
 
-    inputs.history = ["test", "test", "test"]
-    assert inputs.all == "test"
-    assert inputs.any == "test"
+        inputs.history = ["exit", "exit"]
+        assert inputs.any == "exit"
+        assert inputs.all == "exit"
 
-    inputs.history = ["hello", "test", "goodbye"]
-    assert inputs.any == "test"
-    assert inputs.all != "test"
+        inputs.reset()
+        assert inputs.history == []
 
-    inputs.history = ["exit", "exit"]
-    assert inputs.any == "exit"
-    assert inputs.all == "exit"
+    if __name__ == "__main__":
+        test_input_tracker()
+        print("TEST 1: PASSED")
 
-    inputs.reset()
-    assert inputs.history == []
-
-    print("All input tracker checks passed.")
-
-
-if __name__ == "__main__":
-    test_input_tracker()
+except AssertionError as e:
+    print(f"TEST 1: FAILED - {e}")

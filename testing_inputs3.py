@@ -23,7 +23,7 @@ try:
 
     if __name__ == "__main__":
         test_input_tracker_strip()
-        print("TEST 1: PASSED")
+        print("TEST 3: PASSED")
         
 except AssertionError as e:
-    print(f"TEST 1: FAILED - {e}")
+    print(f"TEST 3: FAILED - {e}")

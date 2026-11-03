@@ -26,8 +26,8 @@ try:
 
     if __name__ == "__main__":
         test_input_tracker_lower() 
-        print("TEST 1: PASSED")
+        print("TEST 2: PASSED")
     
 except AssertionError as e:
-    print(f"TEST 1: FAILED - {e}")
+    print(f"TEST 2: FAILED - {e}")
     

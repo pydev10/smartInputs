@@ -21,7 +21,7 @@ class InputsTracker:
 
     def ask(self, prompt_text):
         try:
-            print(end="", flush=True)
+            print(prompt_text, end="", flush=True)
             
             answer = input(prompt_text)
             self.history.append(answer)

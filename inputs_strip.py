@@ -20,6 +20,7 @@ class InputsTracker:
 
     def ask(self, prompt_text):
         try:
+            # ↓ DO NOT REMOVE: This is the fix to that bug where the string from the .ask() function get overriden by by other .ask() function
             print(prompt_text, end="", flush=True) 
                        
             answer = input(prompt_text)

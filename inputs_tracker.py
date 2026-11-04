@@ -21,7 +21,7 @@ class InputsTracker:
             # ↓ DO NOT REMOVE: This is the fix to that bug where the string from the .ask() function get overriden by by other .ask() function
             print(prompt_text, end="", flush=True)
                         
-            answer = input(prompt_text)
+            answer = input()
             self.history.append(answer)
             return answer
 

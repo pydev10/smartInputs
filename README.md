@@ -1,3 +1,5 @@
+# Note: Use the global python interpreter / usr/bin/python3 as it tends to be buggy with the python venv enviroment
+
 # smartInputs project
 
 A clean Python tool to check multiple console text inputs instantly without messy daisy chains.

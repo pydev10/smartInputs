@@ -29,7 +29,6 @@ class InputsTracker:
             return answer
 
         except KeyboardInterrupt:
-            print("Dont interrupt the keyboard by Crtl + C!")
             return None
 
     def reset(self):

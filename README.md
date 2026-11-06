@@ -15,9 +15,8 @@ A clean Python tool to check multiple console text inputs instantly without mess
 
 * **Tip:** Integers and float are technically supported but treated as strings.
 * **Here are 2 examples of the tip:**
-if inputs.any in ['1', '2', '3']:
-
-if inputs.all == '1':
+* if inputs.any in ['1', '2', '3']:
+* if inputs.all == '1':
 
 
 ## How to use it

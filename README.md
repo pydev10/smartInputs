@@ -1,4 +1,4 @@
-# Note: Use the global python interpreter | usr/bin/python3 as it tends to be buggy with the python venv enviroment
+# Note: Use the global python interpreter | /usr/bin/python3 as it tends to be buggy with the python venv enviroment
 
 # smartInputs project
 

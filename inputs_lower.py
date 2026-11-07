@@ -38,7 +38,3 @@ class InputsTracker:
     @property
     def any(self):
         return _InputMatcher(self.history, match_all=False)
-
-        if self.match_all:
-            return all(answer.lower() == value.lower() for answer in self.history)
-        return any(answer.lower() == value.lower() for answer in self.history)

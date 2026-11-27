@@ -14,8 +14,9 @@ A clean Python tool to check multiple console text inputs instantly without mess
 * **Legal Notice (Philippines):** This source code is an original creation protected under Republic Act No. 8293 (Intellectual Property Code of the Philippines). It is distributed globally under the standard MIT License conditions.
 
 * **Tip:** Integers and float are technically supported but treated as strings.
-* **Here are 2 examples of the tip:**
+* **Here are 3 examples of the tip:**
 * -if inputs.any in ['1', '2', '3']:
+* -if inputs.any == '1':
 * -if inputs.all == '1':
 
 
